@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const TitleLogo = styled.div`
   padding: 5%;
+  color: #FFFFFF
 `
 const Logo = styled.div`
   margin-right: auto;
@@ -15,6 +16,7 @@ const Li = styled.li`
   display: inline-block;
   padding: 0 20px;
   text-decoration: none;
+  color: #FFFFFF
 ` 
 function NavBar(){
   return (

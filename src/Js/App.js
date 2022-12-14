@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import "../Css/index.css"
 import NavBar from "../components/NavBar";
+import Formulario from "../components/Formulario";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </>
       </header>
       <main>
+        
       </main>
     </div>
   );
