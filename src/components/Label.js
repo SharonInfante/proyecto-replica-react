@@ -6,9 +6,9 @@ const Labels = styled.label`
 `
 function Label(name) {
     return (
-        <>
-        <Labels>{name}</Labels>
-        </>
+        <Labels>
+            <label>{name}</label>
+        </Labels>
     )
 }
 

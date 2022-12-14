@@ -1,20 +1,16 @@
-import Label from "./Label"
 import Inputs from "./Inputs"
 import styled from "styled-components"
 
 const Form = styled.form`
     background: #202027; 
 `
-function Formulario() {
+function Formulario(name, type) {
     return(
-        <Form>
-            <Label name="Name:"/>
-            <Inputs type="text"/>
-            <Label name="Email:"/>
-            <Inputs type="email"/>
-            <Label name="Password:"/>
-            <Inputs type="password"/>
-        </Form>
+        <section>
+            <form>
+                <Inputs name="Name" type="text"></Inputs>
+            </form>
+        </section>
     )
 }
 

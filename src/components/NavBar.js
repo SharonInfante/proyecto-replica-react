@@ -1,5 +1,7 @@
 import logo from '../images/logo.png'
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import '../Css/index.css'
 
 
 const TitleLogo = styled.div`
@@ -23,12 +25,12 @@ function NavBar(){
     <>
       <Logo>
         <img src={logo} alt="logo"/>
-        <TitleLogo>Soundwave</TitleLogo>
+        <Link to="/"><TitleLogo className='titleLogo'>Soundwave</TitleLogo></Link>
       </Logo>
       <nav>
         <ul>
-          <Li>Discover</Li>
-          <Li>Join</Li>
+          <Link to="/Discovery"><Li>Discover</Li></Link>
+          <Link to="/Join"><Li>Join</Li></Link>
         </ul>
       </nav>
     </>
