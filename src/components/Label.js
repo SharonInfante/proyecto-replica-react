@@ -4,11 +4,9 @@ const Labels = styled.label`
     color: #FFFFFF;
     font-weight: bold;
 `
-function Label(name) {
+function Label({name}) {
     return (
-        <Labels>
-            <label>{name}</label>
-        </Labels>
+        <Labels> {name} </Labels>
     )
 }
 

@@ -12,8 +12,11 @@ function Join() {
       <div>
         <p>Join the</p>
         <p>fun.</p>
-        <Formulario/>
       </div>
+
+      <>
+        <Formulario/>
+      </>
     </div>
   )
 }

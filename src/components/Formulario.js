@@ -1,16 +1,27 @@
 import Inputs from "./Inputs"
 import styled from "styled-components"
+import Label from "./Label";
+import Button from "./Button";
 
-const Form = styled.form`
-    background: #202027; 
+const Form = styled.section`
+    background-color: #202027;
+    height: 12rem;
+    width: 12rem;
+    margin-top:10%;
 `
-function Formulario(name, type) {
+function Formulario() {
     return(
-        <section>
+        <Form>
             <form>
-                <Inputs name="Name" type="text"></Inputs>
+                <Label name="Name:"/>
+                <Inputs type="text"/>
+                <Label name="Email:"/>
+                <Inputs type="email"/>
+                <Label name="Password:"/>
+                <Inputs type="password"/>
+                <Button/>
             </form>
-        </section>
+        </Form>
     )
 }
 
