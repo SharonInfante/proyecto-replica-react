@@ -9,7 +9,7 @@ function NavBar(){
       <Header className="header">
         <Logo>
           <img src={logo} alt="logo"/>
-          <Link to="/"><TitleLogo className='titleLogo'>Soundwave</TitleLogo></Link>
+          <Link to="/"><TitleLogo>Soundwave</TitleLogo></Link>
         </Logo>
         <nav>
           <ul>
@@ -33,7 +33,7 @@ const Header = styled.header`
   top: 0;
   background-color: #202027;
 `
-const TitleLogo = styled.div`
+const TitleLogo = styled.p`
   padding: 5%;
   color: #FFFFFF
 `

@@ -2,6 +2,7 @@ import React from 'react'
 import Formulario from '../components/Formulario'
 import NavBar from '../components/NavBar'
 import '../Css/Join.css'
+import Footer from '../components/Footer'
 
 function Join() {
   return (
@@ -15,6 +16,7 @@ function Join() {
           <p className='P'>fun.</p>
         </div>
         <Formulario/>
+        <Footer/>
       </div>
     </>
   )

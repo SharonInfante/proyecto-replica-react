@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Icons = styled.div`
   background-color: #202027;
-  width: 15%;  
-  height: 45%;
+  width: 12%;  
+  height: 35%;
   justify-content: center;
   text-align: center;
   padding-top: 2%;
