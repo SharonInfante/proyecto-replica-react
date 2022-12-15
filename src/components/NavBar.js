@@ -1,9 +1,38 @@
 import logo from '../images/logo.png'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import '../Css/index.css'
+import '../Css/App.css'
 
+function NavBar(){
+  return (
+    <>
+      <Header className="header">
+        <Logo>
+          <img src={logo} alt="logo"/>
+          <Link to="/"><TitleLogo className='titleLogo'>Soundwave</TitleLogo></Link>
+        </Logo>
+        <nav>
+          <ul>
+            <Link to="/Discovery"><Li>Discover</Li></Link>
+            <Link to="/Join"><Li>Join</Li></Link>
+          </ul>
+        </nav>
+      </Header>
+    </>
+  );
+};
 
+const Header = styled.header`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  padding: 5px 17%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #202027;
+`
 const TitleLogo = styled.div`
   padding: 5%;
   color: #FFFFFF
@@ -20,21 +49,4 @@ const Li = styled.li`
   text-decoration: none;
   color: #FFFFFF
 ` 
-function NavBar(){
-  return (
-    <>
-      <Logo>
-        <img src={logo} alt="logo"/>
-        <Link to="/"><TitleLogo className='titleLogo'>Soundwave</TitleLogo></Link>
-      </Logo>
-      <nav>
-        <ul>
-          <Link to="/Discovery"><Li>Discover</Li></Link>
-          <Link to="/Join"><Li>Join</Li></Link>
-        </ul>
-      </nav>
-    </>
-  );
-};
-
 export default NavBar;

@@ -1,24 +1,23 @@
 import React from 'react'
 import Formulario from '../components/Formulario'
 import NavBar from '../components/NavBar'
+import '../Css/Join.css'
 
 function Join() {
   return (
-    <div>
+    <>
       <header className="header">
         <NavBar/>  
       </header> 
-
-      <div>
-        <p>Join the</p>
-        <p>fun.</p>
-      </div>
-
-      <>
+      <div className='Container'>
+        <div className='Title'>
+          <p>Join the</p>
+          <p className='P'>fun.</p>
+        </div>
         <Formulario/>
-      </>
-    </div>
+      </div>
+    </>
   )
 }
 
-export default Join
+export default Join;

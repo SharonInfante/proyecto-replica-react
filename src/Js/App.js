@@ -1,6 +1,17 @@
-import "../Css/index.css"
 import NavBar from "../components/NavBar";
 import Button from "../components/Button";
+import '../Css/App.css'
+import Girl from '../images/landing-page-girl.png'
+import styled from "styled-components";
+
+const Title = styled.h1`
+  font-size: 3rem;
+  color: #FFFFFF;
+`
+const Subtitle = styled.p`
+  font-size: 1.3rem;
+  color: #FFFFFF;
+`
 
 function App() {
   return (
@@ -8,12 +19,13 @@ function App() {
       <header className="header">
         <NavBar/>  
       </header>
-      <div className="Container">
-        <main>
-          <h1>Feel The Music</h1>
-          <p>Stream over 20 thousand songs with one click</p>
-          <Button/>
-        </main>
+      <div  className="Container">
+          <img src={Girl} className="Girl"/>
+          <div className="Info">
+            <Title>Feel The Music</Title><br/>
+            <Subtitle>Stream over 20 thousand songs with one click</Subtitle><br/>
+            <Button/>
+          </div>
       </div>
     </>
   );

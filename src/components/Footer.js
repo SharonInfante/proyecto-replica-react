@@ -10,7 +10,6 @@ const Footers = styled.footer`
     align-items: center;
     height: 70px;
     padding: 5px 10%;
-    position: fixed;
     width: 100%;
     top: 0;
     background-color: #202027;
@@ -29,19 +28,16 @@ const P = styled.p`
 ` 
 function Footer() {
   return (
-    <div>
-        <Footers>
-            <Info>
-                <p>About Us</p>
-                <Link to="/"><P>Contact</P></Link>
-            </Info>
-            <div>
-                <img src={TwitterIcon}/><P>Twitter</P>
-                <img src={FacebookIcon}/><P>Facebook</P>
-            </div>
-        </Footers>
-    </div>
-
+    <Footers>
+        <Info>
+            <p>About Us</p>
+            <Link to="/Join"><P>Contact</P></Link>
+        </Info>
+        <div>
+            <img src={TwitterIcon}/><P>Twitter</P>
+            <img src={FacebookIcon}/><P>Facebook</P>
+        </div>
+    </Footers>
   )
 }
 

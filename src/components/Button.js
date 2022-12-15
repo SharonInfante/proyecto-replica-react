@@ -5,7 +5,7 @@ const Buttons = styled.button`
     background-color: #1762A7;
     border-radius: 5px;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
 `;
 
 function Button() {
