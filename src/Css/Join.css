@@ -1,21 +1,24 @@
 .Title{
     display: flex;
     grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start:3;
-    grid-row-end:3;
+    grid-column-end: 7;
+    grid-row-start:4;
+    grid-row-end:4;
     color: #FFFFFF;
     font-size: 4rem;
     margin-top: 7rem;
 }
 
 .Form{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start:3;
-    grid-row-end:4;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start:4;
+    grid-row-end:5;
+    margin-left: -10%;
 }
 
 .P{
     padding-left: 2%;
+    color: #BC3A80;
+    font-weight: bold;
 }

@@ -22,6 +22,7 @@ function NavBar(){
   );
 };
 
+
 const Header = styled.header`
   display: flex;
   justify-content: flex-end;
@@ -35,7 +36,7 @@ const Header = styled.header`
 `
 const TitleLogo = styled.p`
   padding: 5%;
-  color: #FFFFFF
+  color: #FFFFFF;
 `
 const Logo = styled.div`
   margin-right: auto;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -7,25 +9,56 @@
 .Container{
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: #2F303A;
+  font-family: 'Poppins';
 }
 
 .Info{
   grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start:3;
-  grid-row-end:6;
+  grid-column-end: 7;
+  grid-row-start:4;
+  grid-row-end:5;
+  margin-top: -10rem;
 }
 
 .Girl{
   grid-column-start: 2;
   grid-column-end: 2;
-  grid-row-start:3;
+  grid-row-start:4;
   grid-row-end:6;
   width: 20rem;
-  margin-top: -2%;
-  position: relative;
+  margin-top: -14.5rem;
+  z-index: 1;
+  margin-left: 50%;
 }
 
+.header{
+  font-family: 'Poppins';
+}
+
+.Circle{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start:3;
+  grid-row-end:4;
+  border-radius: 50%;
+  background: #303047;
+  width: 400px;
+  height: 400px;
+  margin-top: 30%;
+}
+
+.Circle-1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:4;
+  grid-row-end:4;
+  margin-left: 10%;
+  border-radius: 50%;
+  background: #412C41;
+  width: 400px;
+  height: 400px;
+  margin-top: -21%;
+}

@@ -23,9 +23,9 @@ export default Footer;
 
 const Footers = styled.footer`
     grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start:6;
-    grid-row-end:6;
+    grid-column-end: 9;
+    grid-row-start:8;
+    grid-row-end:8;
     display: flex;
     justify-content: flex-end;
     height: 50px;

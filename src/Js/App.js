@@ -7,6 +7,7 @@ import styled from "styled-components";
 const Title = styled.h1`
   font-size: 3rem;
   color: #FFFFFF;
+  margin-left: 2px;
 `
 const Subtitle = styled.p`
   font-size: 1.3rem;
@@ -20,12 +21,14 @@ function App() {
         <NavBar/>  
       </header>
       <div  className="Container">
-          <img src={Girl} className="Girl"/>
-          <div className="Info">
-            <Title>Feel The Music</Title><br/>
-            <Subtitle>Stream over 20 thousand songs with one click</Subtitle><br/>
-            <Button/>
-          </div>
+        <div className="Circle"></div>
+        <div className="Circle-1"></div>
+        <img src={Girl} className="Girl"/>
+        <div className="Info">
+          <Title>Feel The Music</Title><br/>
+          <Subtitle>Stream over 20 thousand songs with one click</Subtitle><br/>
+          <Button/>
+        </div>
       </div>
     </>
   );
