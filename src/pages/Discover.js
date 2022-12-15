@@ -5,6 +5,7 @@ import IconsDiscovery from '../components/IconsDiscovery'
 import Microphone from '../images/microphone.svg'
 import Albums from '../images/albums.svg'
 import More from '../images/more.svg'
+import Footer from '../components/Footer'
 
 function Discover() {
   return (
@@ -24,6 +25,9 @@ function Discover() {
         <p>By joining you can benefit by listening to the latest albums released.</p>
         <img src = {covers}/>
       </main>
+      <>
+      <Footer/>
+      </>
     </div>
   )
 }

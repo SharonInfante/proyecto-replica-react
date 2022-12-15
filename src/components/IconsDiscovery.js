@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Icons = styled.div`
     background-color: #202027;
-    width:17%;  
+    width:5%;  
     justify-content: center;
     text-align: center;
 `
