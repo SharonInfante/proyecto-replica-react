@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import '../Css/Discover.css'
 
 const Icons = styled.div`
   background-color: #202027;
@@ -15,7 +16,7 @@ const Text = styled.p`
 
 function IconsDiscovery({name, img}) {
   return (
-    <Icons>
+    <Icons className='Icon'>
         <img src={img}/>
         <Text>{name}</Text>
     </Icons>

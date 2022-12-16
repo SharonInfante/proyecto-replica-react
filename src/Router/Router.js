@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from '../components/NavBar'
 import App from '../pages/App'
 import Discover from '../pages/Discover'
 import Join from '../pages/Join'

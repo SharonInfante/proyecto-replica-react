@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import '../Css/App.css'
 import Girl from '../images/landing-page-girl.png'
 import styled from "styled-components";
+import { ThemeProvider } from "react-bootstrap";
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -13,7 +14,6 @@ const Subtitle = styled.p`
   font-size: 1.3rem;
   color: #FFFFFF;
 `
-
 function App() {
   return (
     <>
@@ -25,10 +25,11 @@ function App() {
         <div className="Circle-1"></div>
         <img src={Girl} className="Girl"/>
         <div className="Info">
-          <Title>Feel The Music</Title><br/>
-          <Subtitle>Stream over 20 thousand songs with one click</Subtitle><br/>
+          <Title className="H1">Feel The Music</Title><br/>
+          <Subtitle className="P">Stream over 20 thousand songs with one click</Subtitle><br/>
           <Button/>
         </div>
+        <div className="Circle-2"></div>
       </div>
     </>
   );

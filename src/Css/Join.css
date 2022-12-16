@@ -22,3 +22,26 @@
     color: #BC3A80;
     font-weight: bold;
 }
+
+@media screen and (max-width: 576px) {
+    .Container {
+      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .Form{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start:5;
+        grid-row-end:5;
+        margin-left: 0%;
+    }
+
+    .Title{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start:2;
+        grid-row-end:3;
+        font-size: 2rem;
+    }
+}  
