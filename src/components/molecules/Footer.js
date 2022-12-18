@@ -1,6 +1,6 @@
 import React from 'react'
-import TwitterIcon from '../images/twitter.svg'
-import FacebookIcon from '../images/facebook.svg'
+import TwitterIcon from '../../images/twitter.svg'
+import FacebookIcon from '../../images/facebook.svg'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -12,8 +12,8 @@ function Footer() {
             <Link to="/Join"><P>Contact</P></Link>
         </Info>
         <div>
-            <Img src={TwitterIcon}/><P>Twitter</P>
-            <Img src={FacebookIcon}/><P>Facebook</P>
+            <Img src={TwitterIcon} className="icon" /><P>Twitter</P>
+            <Img src={FacebookIcon} className="iconRRSS"/><P>Facebook</P>
         </div>
     </Footers>
   )
@@ -29,7 +29,6 @@ const Footers = styled.footer`
     display: flex;
     justify-content: flex-end;
     height: 50px;
-    padding: 5px 18%;
     width: 100%;
     top: 0;
     background-color: #202027;

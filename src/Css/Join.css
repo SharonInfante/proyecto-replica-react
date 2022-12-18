@@ -1,7 +1,7 @@
 .Title{
     display: flex;
-    grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start:4;
     grid-row-end:4;
     color: #FFFFFF;
@@ -9,16 +9,24 @@
     margin-top: 7rem;
 }
 
-.Form{
+.FormSection{
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start:4;
     grid-row-end:5;
     margin-left: -10%;
+    background-color: #202027;
+    height: 21rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+form{
+    padding-left: 12%;
+    padding-top: 7%;
 }
 
 .P{
-    padding-left: 2%;
     color: #BC3A80;
     font-weight: bold;
 }
@@ -29,19 +37,26 @@
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .Form{
+    .FormSection{
         grid-column-start: 6;
         grid-column-end: 8;
         grid-row-start:5;
         grid-row-end:5;
-        margin-left: 0%;
+        height: 21rem;
+        width: 20rem;
+        border-radius: 10px;
+    }
+
+    form{
+        padding-left: 6%;
+        padding-top: 5%;
     }
 
     .Title{
         grid-column-start: 2;
-        grid-column-end: 5;
+        grid-column-end: 7;
         grid-row-start:2;
-        grid-row-end:3;
-        font-size: 2rem;
+        grid-row-end:2;
+        font-size: 3rem;
     }
 }  

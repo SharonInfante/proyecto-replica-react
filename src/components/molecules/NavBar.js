@@ -1,7 +1,7 @@
-import logo from '../images/logo.png'
+import logo from '../../images/logo.png'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import '../Css/App.css'
+import '../../css/app.css'
 
 function NavBar(){
   return (
@@ -33,10 +33,12 @@ const Header = styled.header`
   width: 100%;
   top: 0;
   background-color: #202027;
+  text-decoration: none;
 `
 const TitleLogo = styled.p`
   padding: 5%;
   color: #FFFFFF;
+  text-decoration: none;
 `
 const Logo = styled.div`
   margin-right: auto;

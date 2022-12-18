@@ -1,8 +1,8 @@
 import React from 'react'
-import Formulario from '../components/Formulario'
-import NavBar from '../components/NavBar'
-import '../Css/Join.css'
-import Footer from '../components/Footer'
+import Formulario from '../molecules/Formulario'
+import NavBar from '../../components/molecules/NavBar'
+import '../../css/join.css'
+import Footer from '../../components/molecules/Footer'
 
 function Join() {
   return (
@@ -12,8 +12,7 @@ function Join() {
       </header> 
       <div className='Container'>
         <div className='Title'>
-          <p>Join the</p>
-          <p className='P'>fun.</p>
+          <p>Join the <span className='P'>fun</span></p>
         </div>
         <Formulario/>
         <Footer/>

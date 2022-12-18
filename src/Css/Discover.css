@@ -38,6 +38,15 @@ h1{
   margin-left: -3%;
 }
 
+.Icon{
+  width: 15%;  
+  height: 47%;
+}
+
+footer{
+  padding: 5px 18%;
+}
+
 @media screen and (max-width: 576px) {
   .Container {
     grid-template-columns: 1fr;
@@ -77,5 +86,19 @@ h1{
     color: #FFFFFF;
     font-size: 1rem;
     margin-top: 3%;
+  }
+
+  .Icon{
+    width: 30%;  
+    height: 100%;
+  }
+
+  footer{
+    font-size: 0.6rem;
+    padding: 1px 1%;
+  }
+
+  .iconRRSS{
+    width: 10%;
   }
 }

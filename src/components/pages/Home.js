@@ -1,9 +1,8 @@
-import NavBar from "../components/NavBar";
-import Button from "../components/Button";
-import '../Css/App.css'
-import Girl from '../images/landing-page-girl.png'
+import Button from "../../components/atoms/Button";
+import '../../css/app.css'
+import Girl from '../../images/landing-page-girl.png'
 import styled from "styled-components";
-import { ThemeProvider } from "react-bootstrap";
+import NavBar from "../molecules/NavBar";
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -14,16 +13,14 @@ const Subtitle = styled.p`
   font-size: 1.3rem;
   color: #FFFFFF;
 `
-function App() {
+function Home() {
   return (
     <>
-      <header className="header">
-        <NavBar/>  
-      </header>
+      <NavBar/>
       <div  className="Container">
         <div className="Circle"></div>
         <div className="Circle-1"></div>
-        <img src={Girl} className="Girl"/>
+        <img src={Girl} className="Girl" alt="Girl"/>
         <div className="Info">
           <Title className="H1">Feel The Music</Title><br/>
           <Subtitle className="P">Stream over 20 thousand songs with one click</Subtitle><br/>
@@ -35,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
