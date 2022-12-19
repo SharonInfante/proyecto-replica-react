@@ -11,19 +11,19 @@ function NavBar(){
           <img src={logo} alt="logo"/>
           <Link to="/"><TitleLogo>Soundwave</TitleLogo></Link>
         </Logo>
-        <nav>
+        <div>
           <ul>
             <Link to="/Discovery"><Li>Discover</Li></Link>
             <Link to="/Join"><Li>Join</Li></Link>
           </ul>
-        </nav>
+        </div>
       </Header>
     </>
   );
 };
 
 
-const Header = styled.header`
+const Header = styled.nav`
   display: flex;
   justify-content: flex-end;
   align-items: center;
