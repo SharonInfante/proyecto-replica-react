@@ -44,6 +44,7 @@ const Logo = styled.div`
   margin-right: auto;
   display: flex;
   align-items: center;
+  text-decoration: none;
 `
 const Li = styled.li`
   list-style: none;
