@@ -5,12 +5,19 @@ const Buttons = styled.button`
     background-color: #1762A7;
     border-radius: 5px;
     border: none;
-    padding: 10px 20px;
+
+    &:hover {
+        background-color: #2180D8;
+    }
+
+    &:focus {
+        background-color: ##2796ff;
+    }
 `;
 
 function Button() {
     return(
-        <Buttons>Join Now</Buttons>
+        <Buttons  className="btn">Join Now</Buttons>
     )
 }
 

@@ -11,8 +11,8 @@ function Footer() {
             <P>About Us</P>
             <Link to="/Join"><P>Contact</P></Link>
         </Info>
-        <div>
-            <Img src={TwitterIcon} className="icon" /><P>Twitter</P>
+        <div className='footerRRSS'>
+            <Img src={TwitterIcon} className="iconRRSS" /><P>Twitter</P>
             <Img src={FacebookIcon} className="iconRRSS"/><P>Facebook</P>
         </div>
     </Footers>
@@ -28,7 +28,7 @@ const Footers = styled.footer`
     grid-row-end:8;
     display: flex;
     justify-content: flex-end;
-    height: 50px;
+    height: 40px;
     width: 100%;
     top: 0;
     background-color: #202027;
@@ -48,5 +48,5 @@ const P = styled.p`
   align-items: center;
 ` 
 const Img = styled.img`
- align-items: center;
+  align-items: center;
 `

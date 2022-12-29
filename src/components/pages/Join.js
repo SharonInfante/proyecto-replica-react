@@ -11,8 +11,8 @@ function Join() {
         <NavBar/>  
       </header> 
       <div className='container'>
-      <div className="circle"></div>
-      <div className="circle"></div>
+      <div className="circleOne"></div>
+      <div className="circleTwo"></div>
         <div className='title'>
           <p>Join the <span className='p'>fun</span></p>
         </div>

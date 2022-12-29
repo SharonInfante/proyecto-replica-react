@@ -44,7 +44,11 @@ h1{
 }
 
 footer{
-  padding: 5px 18%;
+  padding: 5px 15%;
+}
+
+.footerRRSS{
+  width: 35%;
 }
 
 @media screen and (max-width: 576px) {
@@ -100,5 +104,9 @@ footer{
 
   .iconRRSS{
     width: 10%;
+  }
+
+  .footerRRSS{
+    width: 60%;
   }
 }

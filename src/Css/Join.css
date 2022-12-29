@@ -1,12 +1,12 @@
 .title{
-    display: flex;
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start:4;
     grid-row-end:4;
     color: #FFFFFF;
     font-size: 4rem;
-    margin-top: 7rem;
+    z-index: 1;
+    margin-top: 10%;
 }
 
 .formSection{
@@ -26,19 +26,36 @@ form{
     padding-top: 7%;
 }
 
+.btn2{
+    padding: 3% 36%;
+}
+
 .p{
     color: #BC3A80;
     font-weight: bold;
 }
 
-.Circle-2{
-    grid-column-start: 9;
-    grid-column-end: 9;
-    grid-row-start:4;
+.circleOne{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5;
     grid-row-end:6;
-    width: 300px;
-    height: 300px;
-    border-radius: 100% 0 0 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 45% 70% 45% 0;
+    margin-top: -5rem;
+    background: #412C41;
+    margin-top: -17rem;
+}
+
+.circleTwo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end:5;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%  100% 100%;
     margin-top: -5rem;
     background: #303047;
 }
@@ -50,13 +67,14 @@ form{
     }
 
     .formSection{
-        grid-column-start: 6;
-        grid-column-end: 8;
+        grid-column-start: 2;
+        grid-column-end: 6;
         grid-row-start:5;
-        grid-row-end:5;
+        grid-row-end:7;
         height: 21rem;
         width: 20rem;
         border-radius: 10px;
+        margin-left: -6%;
     }
 
     form{
@@ -64,11 +82,34 @@ form{
         padding-top: 5%;
     }
 
+    .btn2{
+        padding: 3% 38%;
+    }
+
     .title{
         grid-column-start: 2;
-        grid-column-end: 7;
-        grid-row-start:2;
-        grid-row-end:2;
+        grid-column-end: 4;
+        grid-row-start:3;
+        grid-row-end:3;
         font-size: 3rem;
+    }
+
+    .circleOne{
+        width: 100px;
+        height: 100px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:7;
+        grid-row-end:9;
+        margin-top: 0;
+    }
+
+    .circleTwo{
+        width: 150px;
+        height: 150px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:3;
+        grid-row-end:4;
     }
 }  

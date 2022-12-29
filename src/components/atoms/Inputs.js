@@ -16,4 +16,8 @@ const Input = styled.input`
     margin-top: 10px;
     margin-bottom: 10px;
     color: #596da0;
+
+    &:focus {
+        border: 1px solid #596DA0;
+    }
 `
