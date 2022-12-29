@@ -1,4 +1,4 @@
-.Title{
+.title{
     display: flex;
     grid-column-start: 2;
     grid-column-end: 6;
@@ -9,7 +9,7 @@
     margin-top: 7rem;
 }
 
-.FormSection{
+.formSection{
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start:4;
@@ -26,18 +26,30 @@ form{
     padding-top: 7%;
 }
 
-.P{
+.p{
     color: #BC3A80;
     font-weight: bold;
 }
 
+.Circle-2{
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start:4;
+    grid-row-end:6;
+    width: 300px;
+    height: 300px;
+    border-radius: 100% 0 0 0;
+    margin-top: -5rem;
+    background: #303047;
+}
+
 @media screen and (max-width: 576px) {
-    .Container {
+    .container {
       grid-template-columns: 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .FormSection{
+    .formSection{
         grid-column-start: 6;
         grid-column-end: 8;
         grid-row-start:5;
@@ -52,7 +64,7 @@ form{
         padding-top: 5%;
     }
 
-    .Title{
+    .title{
         grid-column-start: 2;
         grid-column-end: 7;
         grid-row-start:2;

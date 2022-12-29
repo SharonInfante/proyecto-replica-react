@@ -1,7 +1,7 @@
 import logo from '../../images/logo.png'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import '../../css/app.css'
+import '../../css/home.css'
 
 function NavBar(){
   return (

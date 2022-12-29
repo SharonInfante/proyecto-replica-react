@@ -14,7 +14,7 @@ const Text = styled.p`
 
 function IconsDiscovery({name, img}) {
   return (
-    <Icons className='Icon'>
+    <Icons className='icon'>
         <img src={img} alt="icons"/>
         <Text>{name}</Text>
     </Icons>

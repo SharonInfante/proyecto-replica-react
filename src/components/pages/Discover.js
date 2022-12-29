@@ -14,23 +14,23 @@ function Discover() {
       <header className="header">
         <NavBar/>  
       </header>    
-      <div className='Container'>
+      <div className='container'>
         <h1>Discover new music</h1>
-        <div className='Icons'>
+        <div className='icons'>
           <IconsDiscovery name="Charts" img={Microphone} />
           <br/>
           <IconsDiscovery name="Albums" img={Albums} />
           <br/>
           <IconsDiscovery name="More" img={More} />
         </div>
-        <div className='Subtitle'>
+        <div className='subtitle'>
           <p>By joining you can benefit by listening to the latest albums released.</p>
         </div>
-        <img src = {covers} className='Cover' alt=""/>
-        <Footer className='Footer'/>
+        <img src = {covers} className='cover' alt=""/>
+        <Footer className='footer'/>
       </div>
     </>
   )
 }
 
-export default Discover
+export default Discover;

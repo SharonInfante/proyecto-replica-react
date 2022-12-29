@@ -10,9 +10,11 @@ function Join() {
       <header className="header">
         <NavBar/>  
       </header> 
-      <div className='Container'>
-        <div className='Title'>
-          <p>Join the <span className='P'>fun</span></p>
+      <div className='container'>
+      <div className="circle"></div>
+      <div className="circle"></div>
+        <div className='title'>
+          <p>Join the <span className='p'>fun</span></p>
         </div>
         <Formulario/>
         <Footer/>

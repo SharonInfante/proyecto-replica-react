@@ -1,5 +1,5 @@
 import Button from "../../components/atoms/Button";
-import '../../css/app.css'
+import '../../css/home.css'
 import Girl from '../../images/landing-page-girl.png'
 import styled from "styled-components";
 import NavBar from "../molecules/NavBar";
@@ -17,16 +17,16 @@ function Home() {
   return (
     <>
       <NavBar/>
-      <div  className="Container">
-        <div className="Circle"></div>
-        <div className="Circle-1"></div>
-        <img src={Girl} className="Girl" alt="Girl"/>
-        <div className="Info">
-          <Title className="H1">Feel The Music</Title><br/>
-          <Subtitle className="P">Stream over 20 thousand songs with one click</Subtitle><br/>
+      <div  className="container">
+        <div className="circle"></div>
+        <div className="circle-1"></div>
+        <img src={Girl} className="girl" alt="Girl"/>
+        <div className="info">
+          <Title>Feel The Music</Title><br/>
+          <Subtitle>Stream over 20 thousand songs with one click</Subtitle><br/>
           <Button/>
         </div>
-        <div className="Circle-2"></div>
+        <div className="circle-2"></div>
       </div>
     </>
   );

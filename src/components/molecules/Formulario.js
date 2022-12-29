@@ -5,8 +5,8 @@ import '../../css/join.css'
 
 function Formulario() {
     return(
-        <section className="FormSection">
-            <form className="Form">
+        <section className="formSection">
+            <form className="form">
                 <Label name="Name:"/>
                 <Inputs type="text"/>
                 <Label name="Email:"/>
